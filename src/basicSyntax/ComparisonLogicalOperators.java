@@ -7,21 +7,21 @@ public class ComparisonLogicalOperators {
 		int a = 5;
 		int b = 12;
 		boolean isGreaterA = (a > b);
-		System.out.println(isGreaterA); 
+		System.out.println(isGreaterA);
 
 		boolean isSunny = true;
 		boolean isWarm = true;
 		boolean isGreaterB = (isSunny && isWarm);
-		System.out.println(isGreaterB); 
+		System.out.println(isGreaterB);
 
 		int x = 10;
 		int y = 2;
-		boolean isGreaterC = ( x > 0 && y % 2 == 0);
-		System.out.println(isGreaterC); 
+		boolean isGreaterC = (x > 0 && y % 2 == 0);
+		System.out.println(isGreaterC);
 
 		boolean hasPermission = false;
 		boolean notResult = !(hasPermission == true);
-		System.out.println(notResult); 
+		System.out.println(notResult);
 	}
 
 }
