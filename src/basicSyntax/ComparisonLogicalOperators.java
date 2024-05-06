@@ -20,7 +20,7 @@ public class ComparisonLogicalOperators {
 		System.out.println(isGreaterC);
 
 		boolean hasPermission = false;
-		boolean notResult = !(hasPermission == true);
+		boolean notResult = !(hasPermission);
 		System.out.println(notResult);
 	}
 
