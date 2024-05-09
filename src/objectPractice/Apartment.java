@@ -9,6 +9,14 @@ public class Apartment extends Property {
 		this.floor = floor;
 	}
 
+	public String floor() {
+		return this.floor;
+	}
+
+	public void floor(String floor) {
+		this.floor = floor;
+	}
+
 	public void information() {
 		super.information();
 		System.out.println("間取り：" + this.floor);

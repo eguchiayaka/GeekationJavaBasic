@@ -5,8 +5,6 @@ public class Property {
 	private String owner;
 	private String type;
 	private String price;
-	private String floor;
-	private String size;
 
 	Property(String name, String owner, String type, String price, String floor) {
 		this.name = name;
@@ -31,14 +29,6 @@ public class Property {
 		return this.price;
 	}
 
-	public String floor() {
-		return this.floor;
-	}
-
-	public String size() {
-		return this.size;
-	}
-
 	public void name(String name) {
 		this.name = name;
 	}
@@ -53,14 +43,6 @@ public class Property {
 
 	public void price(String price) {
 		this.price = price;
-	}
-
-	public void floor(String floor) {
-		this.floor = floor;
-	}
-
-	public void size(String size) {
-		this.size = size;
 	}
 
 	public void information() {

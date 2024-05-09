@@ -9,6 +9,14 @@ public class Land extends Property {
 		this.size = size;
 	}
 
+	public String size() {
+		return this.size;
+	}
+
+	public void size(String size) {
+		this.size = size;
+	}
+
 	public void information() {
 		super.information();
 		System.out.println("広さ：" + this.size);
