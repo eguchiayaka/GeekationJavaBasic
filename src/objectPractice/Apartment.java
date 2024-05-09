@@ -3,7 +3,7 @@ package objectPractice;
 public class Apartment extends Property {
 	private String floor;
 
-	public Apartment(String name, String owner, String type, String price, String floor) {
+	Apartment(String name, String owner, String type, String price, String floor) {
 
 		super(name, owner, type, price, floor);
 		this.floor = floor;
