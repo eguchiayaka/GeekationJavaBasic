@@ -1,16 +1,16 @@
 package objectPractice;
 
 public class Land extends Property {
-	private String floor;
+	private String size;
 
-	Land(String name, String owner, String type, String price, String floor) {
+	Land(String name, String owner, String type, String price, String size) {
 
-		super(name, owner, type, price, floor);
-		this.floor = floor;
+		super(name, owner, type, price, size);
+		this.size = size;
 	}
 
-	public void greeting() {
-		super.greeting();
-		System.out.println("広さ：" + this.floor);
+	public void information() {
+		super.information();
+		System.out.println("広さ：" + this.size);
 	}
 }

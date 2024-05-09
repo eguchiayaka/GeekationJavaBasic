@@ -6,16 +6,16 @@ public class Property {
 	private String type;
 	private String price;
 	private String floor;
+	private String size;
 
 	Property(String name, String owner, String type, String price, String floor) {
 		this.name = name;
 		this.owner = owner;
 		this.type = type;
 		this.price = price;
-		this.floor = floor;
 	}
 
-	public String getname() {
+	public String name() {
 		return this.name;
 	}
 
@@ -33,6 +33,10 @@ public class Property {
 
 	public String floor() {
 		return this.floor;
+	}
+
+	public String size() {
+		return this.size;
 	}
 
 	public void name(String name) {
@@ -55,7 +59,11 @@ public class Property {
 		this.floor = floor;
 	}
 
-	public void greeting() {
+	public void size(String size) {
+		this.size = size;
+	}
+
+	public void information() {
 		System.out.println("物件名：" + this.name);
 		System.out.println("物件所有者名：" + this.owner);
 		System.out.println("物件種別：" + this.type);
